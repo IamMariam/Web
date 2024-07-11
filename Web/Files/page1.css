@@ -1,0 +1,31 @@
+body{
+background-color: blanchedalmond;
+
+}
+
+.container{
+    margin: auto;
+    border: 0.5cm;
+}
+
+input[type = "text"],
+input[type = "email"]{
+    width: 100;
+    display: inline-block;
+    margin: 0.2cm;
+    border: 5cm;
+}
+
+input[type = "text"]:focus,
+input[type = "email"]:focus{
+background-color: rgba(187, 183, 183, 0.349);
+}
+
+.button{
+    width: 3cm;
+    margin: 0.2cm;
+}
+
+.button:focus{
+    opacity: 1;
+}

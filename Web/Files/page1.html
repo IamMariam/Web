@@ -1,6 +1,7 @@
 <html lang="en">
 <head>
     <title>Maro webDev</title>
+    <link rel="stylesheet" href="page1.css">
 </head>
 <body>
 
@@ -10,7 +11,7 @@
     
     <br>
     <aside>
-        <img src="Web\assets\53e0060813b937ca4296cb1689a06b5a.jpg" alt="Error Loading The Picture" width="150px"> 
+        <img src="\Web\assets\pic.jpg" alt="Error Loading The Picture" width="150px"> 
     </aside>
     
     <form action="">
@@ -41,12 +42,20 @@
     </ul>
 
     <form action="">
-        <label>username</label>
-        <input type="text" >
+
+        <hr/>
+        <h1>Contact me</h1>
+
+        <div class="container">
+        <label>Name</label>
+        <input type="text" required>
 
         <br>
         <label>Email</label>
-        <input type="email" accept="email">
+        <input type="email" accept="email" required>
+    </div>
+
+    <button class="button">Submit</button>
     </form>
 </body>
 </html>
